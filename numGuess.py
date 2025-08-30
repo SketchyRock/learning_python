@@ -13,13 +13,13 @@ while (guess != randNum):
 		try:
 			guess = int(input())
 		except ValueError:
-			print('stupid nig...')
+			print('enter correct value')
 	else:
 		print ('higher, guess again')
 		try:
 			guess = int(input())
 		except ValueError:
-			print('stupid nig...')		
+			print('enter correct value')		
 
-print('yay, you are gay')
+print('yay, you got it')
 sys.exit()
